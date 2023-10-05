@@ -1,0 +1,71 @@
+Listar os nomes de municípios que se iniciam com “Santo” ou “Santa” (sugestão: usar a
+tabela sedemunbrasil ou a tabela mg_municipio e visualizar a distribuição espacial)
+2. Listar a sigla da rodovia e o comprimento em km de todos os trechos de rodovias
+contidos no banco de dados que tenham mais de 100km.
+3. Listar o nome de todos os distritos do município ‘Ouro Preto’.
+Universidade Federal de Minas Gerais
+Instituto de Ciências Exatas
+Departamento de Ciência da Computação
+Bancos de Dados Geográficos
+2º Semestre de 2021
+Prof. Clodoveu Davis
+4. Listar o nome dos municípios que possuem pista de pouso.
+5. Listar o nome dos municípios cuja sede fica a mais de 50km da pista de pouso mais
+próxima.
+6. Listar o nome das rodovias que cruzam o “Rio das Velhas”.
+7. Listar o nome de todos os municípios ao longo da rodovia “MG-010”.
+8. Listar os nomes dos municípios que fazem parte da microrregião “Curvelo”
+9. Listar o nome de todos os municípios limítrofes (exteriores e vizinhos) à microrregião
+“Curvelo”
+10. Listar o nome de todos os municípios limítrofes (exteriores e vizinhos) à microrregião
+“Curvelo” e suas respectivas microrregiões
+11. Listar os nomes dos municípios cujas sedes municipais estão a menos de 10km de uma
+ferrovia. Obs: a solução envolve criar um buffer de 10km ao redor das ferrovias, mas o
+GeoSQL não permite o armazenamento de resultados intermediários, então é
+necessário fazer tudo em uma única expressão SQL.
+12. Listar os nomes das sedes municipais que estão a menos de 200km da sede de Belo
+Horizonte.
+13. Listar os nomes dos municípios que estão a menos de 200km de Belo Horizonte
+(polígonos).
+14. Calcular a área total dos municípios cuja população é maior que 100.000 habitantes.
+15. Calcular a porcentagem da área do estado que é ocupada pelas mesorregiões
+“NOROESTE DE MINAS”, “NORTE DE MINAS” e “JEQUITINHONHA”.
+16. Informar o número de vértices usados para descrever as fronteiras do Estado na tabela
+MG.
+17. Informar em lat/long os limites do retângulo que envolve o estado de Minas Gerais
+inteiro (coordenadas dos cantos). Determinar também as dimensões desse retângulo
+em km, na mesma expressão SQL.
+18. Calcular a população total, quantidade de homens e de mulheres de Betim (soma da
+população dos setores censitários contidos nos limites do município).
+19. Calcular a população total da comarca de ‘BRUMADINHO’.
+20. Verificar quantos municípios estão contidos total ou parcialmente na bacia do Rio
+Doce.
+21. Contar a quantidade de barragens de rejeitos em cada município mineiro, e produzir
+uma lista em ordem decrescente dessa quantidade, indicando também o nome do
+município.
+22. Calcular a distância média entre a sede de cada município de MG e as localidades
+contidas nele.
+23. Gerar as regiões (agregados de municípios) que têm o mesmo DDD (usar união para
+produzir a saída – o GeoSQL não permitirá o armazenamento do resultado)
+24. Listar as comarcas do TJMG relacionadas espacialmente à macrorregião
+‘Jequitinhonha’.
+25. Visualizar e listar os dados das barragens de rejeitos que se situam no interior de áreas
+de preservação do estado de MG.
+26. Listar, sem repetição, os nomes dos rios que atravessam, estão dentro ou passam na
+fronteira de áreas de preservação do estado de MG.
+27. Determinar quantos municípios do estado de Minas Gerais têm todo o seu território
+dentro de uma única bacia hidrográfica.
+28. Mostrar os municípios que, ao mesmo tempo, tenham parte do seu território na bacia
+do Rio Grande, são atravessados pela BR-040 e fazem parte da mesorregião ‘CAMPO
+DAS VERTENTES’.
+29. Usando o dado de PIB per capita da tabela munbrasilpib, apresente os 10 municípios
+com os maiores valores de PIB per capita por unidade de área, p. ex., por km2 de
+território.
+30. Produza uma lista de correspondências entre as regiões-polo de saúde e as
+microrregiões do estado. Deseja-se saber tanto que microrregiões compartilham
+território com as regiões-polo de saúde, quanto o inverso.
+BONUS
+31. Determinar (e visualizar o polígono) o percentual da área da macrorregião ‘Oeste’ que
+não faz parte da bacia hidrográfica do Rio São Francisco.
+32. Determinar a população total que reside a menos de 50km de uma barragem de
+rejeitos. Obs: cuidado para não somar os mesmos dados mais de uma vez!
